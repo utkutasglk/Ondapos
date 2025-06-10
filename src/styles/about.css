@@ -53,3 +53,7 @@
   color: #fff;
   font-weight: 500;
 }
+
+.light-theme .choose__us-title {
+  color: #0c123d !important;
+}
