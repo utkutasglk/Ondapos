@@ -10,8 +10,8 @@ const Hero = ({ theme }) => {
         <div className="hero__wrapper">
           <div className="hero__content">
             <div>
-              <h2>Mükemmel Ödeme Çözümleriyle</h2>
-              <h2>Markanızı Öne Çıkarın</h2>
+              <h2>En İyi Ödeme Çözümleriyle</h2>
+
               <h2 className="highlight">Markanızı Öne Çıkarın</h2>
             </div>
             <p className="description">
