@@ -5,22 +5,22 @@ const serviceData = [
   {
     icon: "ri-refund-2-line",
     title: "Sanal Pos",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iusto eveniet dolorum quidem magni iste ad ex obcaecati!",
+    desc: "Web siteniz veya mobil uygulamanız üzerinden online olarak güvenli ödemeler alın.",
   },
   {
     icon: "ri-smartphone-line",
     title: "Mobil NFC",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iusto eveniet dolorum quidem magni iste ad ex obcaecati!",
+    desc: "Telefonunuzu POS cihazına dönüştürerek temassız ve hızlı ödemeler kabul edin.",
   },
   {
     icon: "ri-qr-code-line",
     title: "QR Payment",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iusto eveniet dolorum quidem magni iste ad ex obcaecati!",
+    desc: "Müşterilerinizin QR kod okutarak akıllı telefonlarıyla kolayca ödeme yapmasını sağlayın.",
   },
   {
     icon: "ri-secure-payment-line",
     title: "Secure Payment",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Iusto eveniet dolorum quidem magni iste ad ex obcaecati!",
+    desc: "En güncel güvenlik standartları ile hem işletmenizi hem de müşterilerinizi koruyun.",
   },
 ];
 
@@ -29,9 +29,9 @@ const Services = () => {
     <section id="service">
       <div className="container">
         <div className="services__top-content">
-          <h6 className="subtitle">Our Services</h6>
-          <h2>Save payment cost your business with</h2>
-          <h2 className="highlight">our best service</h2>
+          <h6 className="subtitle">Hizmetlerimiz</h6>
+          <h2>İşletmenizin ödeme maliyetlerinden</h2>
+          <h2 className="highlight">en iyi hizmetimizle tasarruf edin</h2>
         </div>
         <div className="service__item-wrapper">
           {serviceData.map((item, index) => (

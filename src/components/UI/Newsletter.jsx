@@ -7,16 +7,16 @@ const Newsletter = () => {
       <div className="container">
         <div className="newsletter__wrapper">
           <div className="newsletter__content">
-            <h6 className="subtitle">Lets work</h6>
+            <h6 className="subtitle">Birlikte çalışalım</h6>
             <h2>
-              Explore the <span className="highlight">hidden ideas and </span>
-              subscribe
+              Yeni fikirleri{" "}
+              <span className="highlight">keşfedin ve abone olun </span>
             </h2>
           </div>
           <div className="newsletter__form">
             <input type="email" placeholder="Email" />
             <button className="secondary__btn subscribe__btn">
-              Subscribe Now
+              Şimdi Abone Ol
             </button>
           </div>
         </div>

@@ -12,8 +12,8 @@ const teamMembers = [
   },
   {
     imgUrl: team02,
-    name: "Bedis",
-    position: "Founder",
+    name: "Bedriye",
+    position: "Manager",
   },
   {
     imgUrl: team03,
@@ -22,8 +22,8 @@ const teamMembers = [
   },
   {
     imgUrl: team02,
-    name: "Someone",
-    position: "Some position",
+    name: "Gulsah",
+    position: "Human Resources",
   },
 ];
 
@@ -32,9 +32,9 @@ const Team = () => {
     <section className="our__team">
       <div className="container">
         <div className="team__content">
-          <h6 className="subtitle">Our Team</h6>
+          <h6 className="subtitle">Takımımız</h6>
           <h2>
-            Meet With <span className="highlight">our team</span>
+            Bizimle <span className="highlight">tanışın</span>
           </h2>
         </div>
 

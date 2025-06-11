@@ -9,19 +9,19 @@ const blogData = [
   {
     imgUrl: videoImg,
     title: "Video",
-    desc: "To know about our work. Watch some video f...",
+    desc: "Çalışmalarımız hakkında bilgi almak için videolarımızı izleyin...",
     linkUrl: "#",
   },
   {
     imgUrl: articleImg,
-    title: "Articles",
-    desc: "Do you want to improve the way your brand interacts with customer? Lets talk...",
+    title: "Makaleler",
+    desc: "Markanızın müşteriyle etkileşimini geliştirmek mi istiyorsunuz? Gelin konuşalım...",
     linkUrl: "#",
   },
   {
     imgUrl: caseStudy,
-    title: "Case Study",
-    desc: "Boost your conversation rate with us ...",
+    title: "Vaka Analizi",
+    desc: "Dönüşüm oranınızı bizimle artırın...",
     linkUrl: "#",
   },
 ];
@@ -31,10 +31,10 @@ const Blog = () => {
     <section id="blog" className="blog">
       <div className="container">
         <div className="blog__top-content">
-          <h6 className="subtitle">Our Blog</h6>
+          <h6 className="subtitle">Blogumuz</h6>
           <h2>
-            Lets have a look from our
-            <span className="highlight"> recent blog</span>
+            En son blog yazılarımıza
+            <span className="highlight"> bir göz atalım</span>
           </h2>
         </div>
         <div className="blog_wrapper">

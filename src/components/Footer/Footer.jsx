@@ -4,41 +4,41 @@ import "../Footer/footer.css";
 const quickLinks01 = [
   {
     path: "#",
-    display: "Marketing",
+    display: "Pazarlama",
   },
   {
     path: "#",
-    display: "Analytics",
+    display: "Analitik",
   },
   {
     path: "#",
-    display: "Commerce",
+    display: "E-ticaret",
   },
 ];
 
 const quickLinks02 = [
   {
     path: "#",
-    display: "Pricing",
+    display: "Fiyatlandırma",
   },
   {
     path: "#",
-    display: "Documentation",
+    display: "Dokümantasyon",
   },
   {
     path: "#",
-    display: "Guides",
+    display: "Rehberler",
   },
 ];
 
 const quickLinks03 = [
   {
     path: "#about",
-    display: "About",
+    display: "Hakkımızda",
   },
   {
     path: "#",
-    display: "Jobs",
+    display: "Kariyer",
   },
   {
     path: "#blog",
@@ -53,18 +53,17 @@ const Footer = () => {
       <div className="container">
         <div className="footer__wrapper">
           <div className="footer__logo">
-            <h2>Digency</h2>
-            <p className="description">Grow with us</p>
+            <h2>Ondapos</h2>
+            <p className="description">Bizimle büyüyün</p>
             <p className="small__text description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit
-              nisi nostrum sapiente, in laboriosam nemo optio, impedit culpa
-              soluta sint vitae quasi inventore nihil magni adipisci labore
-              blanditiis iusto exercitationem.
+              Ondapos, işletmeler için yenilikçi ödeme çözümleri sunarak dijital
+              dönüşümlerine liderlik eder. Güvenli altyapımız ve uzman
+              ekibimizle işinizi geleceğe taşıyın.
             </p>
           </div>
 
           <div className="footer__quick-links">
-            <h3 className="quick__links-title">Solution</h3>
+            <h3 className="quick__links-title">Çözümler</h3>
             <ul className="quick__links">
               {quickLinks01.map((item, index) => (
                 <li className="quick__links-item" key={index}>
@@ -75,7 +74,7 @@ const Footer = () => {
           </div>
 
           <div className="footer__quick-links">
-            <h3 className="quick__links-title">Support</h3>
+            <h3 className="quick__links-title">Destek</h3>
             <ul className="quick__links">
               {quickLinks02.map((item, index) => (
                 <li className="quick__links-item" key={index}>
@@ -86,7 +85,7 @@ const Footer = () => {
           </div>
 
           <div className="footer__quick-links">
-            <h3 className="quick__links-title">Company</h3>
+            <h3 className="quick__links-title">Şirket</h3>
             <ul className="quick__links">
               {quickLinks03.map((item, index) => (
                 <li className="quick__links-item" key={index}>

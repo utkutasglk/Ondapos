@@ -10,17 +10,18 @@ const Hero = ({ theme }) => {
         <div className="hero__wrapper">
           <div className="hero__content">
             <div>
-              <h2>We're Creating Perfect</h2>
-              <h2>Payment Solutions To</h2>
-              <h2 className="highlight">Promote Your Brand</h2>
+              <h2>Mükemmel Ödeme Çözümleriyle</h2>
+              <h2>Markanızı Öne Çıkarın</h2>
+              <h2 className="highlight">Markanızı Öne Çıkarın</h2>
             </div>
             <p className="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              repellendus itaque exercitationem voluptatum? Aspernatur, quae!
+              İşletmeniz için modern ve güvenilir ödeme altyapıları kurarak,
+              müşteri memnuniyetini artırmanıza ve gelirinizi yükseltmenize
+              yardımcı oluyoruz.
             </p>
             <div className="hero__btns">
-              <button className="primary__btn">Get Started Now</button>
-              <button className="secondary__btn">Discover More</button>
+              <button className="primary__btn">Hemen Başlayın</button>
+              <button className="secondary__btn">Daha Fazlasını Keşfet</button>
             </div>
           </div>
           <div className="hero__img">

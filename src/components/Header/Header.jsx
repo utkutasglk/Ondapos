@@ -5,19 +5,19 @@ import "./header.css";
 const nav__links = [
   {
     path: "#",
-    display: "Home",
+    display: "Anasayfa",
   },
   {
     path: "#about",
-    display: "About",
+    display: "Hakkımızda",
   },
   {
     path: "#service",
-    display: "Service",
+    display: "Hizmetler",
   },
   {
     path: "#projects",
-    display: "Projects",
+    display: "Projeler",
   },
   {
     path: "#blog",

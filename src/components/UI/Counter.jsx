@@ -4,15 +4,15 @@ import "../../styles/counter.css";
 const counterData = [
   {
     number: "2k+",
-    text: "Clients",
+    text: "Müşteri",
   },
   {
     number: 35,
-    text: "Working Partners",
+    text: "İş Ortağı",
   },
   {
     number: 5,
-    text: "Payment Solutions",
+    text: "Ödeme Çözümü",
   },
 ];
 
